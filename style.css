@@ -1,0 +1,87 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.frame{
+    width: 800px;
+    background-color: rgba(31, 31, 31, 0.6);
+    border-radius: 20px;
+    margin: auto;
+    padding: 70px;
+}
+
+header, nav{
+    text-align: center;
+}
+
+#logo{
+    width: 25%;
+    height: 25%;
+    margin-top: 20px;
+}
+
+#title{
+    
+    font-size: 28px;
+    color: rgb(26, 224, 26);
+    font-weight: 900;
+    line-height: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.actions{
+    background-color: rgb(26, 224, 26);
+    padding: 10px;
+}
+
+.actions>input{
+    font-size: 10px;
+}
+
+.result{
+    color: white;
+    line-height: 20px;
+}
+
+.result>.name{
+    padding-top: 22px;
+    padding-bottom: 3px;
+}
+
+.name span{
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.details{
+    font-size: 14px;
+}
+
+.result .location:before{
+    content: ' \21A6';
+}
+.first .loading{
+    color:rgb(240, 180, 69);
+    background-color: rgb(240, 180, 69);
+    width: 250px;
+    border-radius: 5px;
+}
+.second .loading{
+    color:rgb(12, 188, 12);
+    background-color: rgb(12, 188, 12);
+    width: 500px;
+    border-radius: 5px;
+}
+
+.third .loading{
+    color:rgb(176, 74, 74);
+    background-color: rgb(176, 74, 74);
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+
